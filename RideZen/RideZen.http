@@ -1,0 +1,6 @@
+@RideZen_HostAddress = http://localhost:5140
+
+GET {{RideZen_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
