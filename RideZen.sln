@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideZen", "RideZen\RideZen.csproj", "{5C883BE6-B77F-4AB6-A088-274DF3F24625}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservice", "{4221FE79-42E5-42EA-8148-99289D48BBD3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RideZen", "RideZen", "{898AC397-B08B-4DAA-A179-AC7749D033BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideZen.Api", "RideZen.Api\RideZen.Api.csproj", "{31F65807-A2B0-4785-A5BA-B686640DA4AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideZen.Application", "RideZen.Application\RideZen.Application.csproj", "{94B2F475-7477-400B-A984-0A409A05A144}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideZen.Domain", "RideZen.Domain\RideZen.Domain.csproj", "{9E875378-6AAC-4035-9272-6314BD5FDDF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RideZen.Infrastructure", "RideZen.Infrastructure\RideZen.Infrastructure.csproj", "{DDEDDB42-2C99-4F1C-BE10-7EAAC0739D7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +21,32 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5C883BE6-B77F-4AB6-A088-274DF3F24625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C883BE6-B77F-4AB6-A088-274DF3F24625}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C883BE6-B77F-4AB6-A088-274DF3F24625}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C883BE6-B77F-4AB6-A088-274DF3F24625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F65807-A2B0-4785-A5BA-B686640DA4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F65807-A2B0-4785-A5BA-B686640DA4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F65807-A2B0-4785-A5BA-B686640DA4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F65807-A2B0-4785-A5BA-B686640DA4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94B2F475-7477-400B-A984-0A409A05A144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B2F475-7477-400B-A984-0A409A05A144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B2F475-7477-400B-A984-0A409A05A144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B2F475-7477-400B-A984-0A409A05A144}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E875378-6AAC-4035-9272-6314BD5FDDF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E875378-6AAC-4035-9272-6314BD5FDDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E875378-6AAC-4035-9272-6314BD5FDDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E875378-6AAC-4035-9272-6314BD5FDDF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDEDDB42-2C99-4F1C-BE10-7EAAC0739D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDEDDB42-2C99-4F1C-BE10-7EAAC0739D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDEDDB42-2C99-4F1C-BE10-7EAAC0739D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDEDDB42-2C99-4F1C-BE10-7EAAC0739D7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{898AC397-B08B-4DAA-A179-AC7749D033BA} = {4221FE79-42E5-42EA-8148-99289D48BBD3}
+		{31F65807-A2B0-4785-A5BA-B686640DA4AB} = {898AC397-B08B-4DAA-A179-AC7749D033BA}
+		{94B2F475-7477-400B-A984-0A409A05A144} = {898AC397-B08B-4DAA-A179-AC7749D033BA}
+		{9E875378-6AAC-4035-9272-6314BD5FDDF8} = {898AC397-B08B-4DAA-A179-AC7749D033BA}
+		{DDEDDB42-2C99-4F1C-BE10-7EAAC0739D7A} = {898AC397-B08B-4DAA-A179-AC7749D033BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4ABE0766-5A85-4DE6-BBA2-6FBBFA3B710A}
