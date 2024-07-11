@@ -10,7 +10,7 @@ namespace RideZen.Domain.Entities
     public class Customer
     {
         
-        public Guid Id { get; set; }
+        public Guid CustomerId { get; set; }
 
         [Required]
         [StringLength(100)]
@@ -39,6 +39,7 @@ namespace RideZen.Domain.Entities
 
         public Customer(string name, string email, string password, string phoneNumber, string profilePicture, string idNumber)
         {
+            CustomerId = Guid.NewGuid();
             Name = name;
             Email = email;
             Password = password;
