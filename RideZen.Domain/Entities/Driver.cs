@@ -39,6 +39,11 @@ namespace RideZen.Domain.Entities
 
         public Vehicle Vehicle { get; set; }
 
+        public Driver()
+        {
+
+        }
+
         public Driver(string name, string email,string idNumber, string password, string phoneNumber, string profilePicture, string licenseNumber, DateTime licenseExpiryDate, Vehicle vehicle)
         {
             DriverId = Guid.NewGuid();
