@@ -42,7 +42,7 @@ RideZen is a modern taxi application designed to connect riders with independent
 
 ## Support
 
-For any questions, feedback, or assistance, please contact our support team at support@drivewave.com.
+For any questions, feedback, or assistance, please contact our support team at support@RideZen.com.
 
 ## Contributing
 
