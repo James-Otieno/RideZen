@@ -20,5 +20,12 @@ namespace RideZen.Domain.Entities
         {
 
         }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+           
+        }
     }
 }
